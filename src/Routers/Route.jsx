@@ -12,9 +12,9 @@ import CtaskDashboard from "../Pages/CtaskDashboard";
 const Home = () => {
   return (
     <>
-      <BrowserRouter>
-          {/* <Header />
-          <CtaskHeader/> */}
+      <BrowserRouter basename="chronohub">
+          <Header />
+          <CtaskHeader/>
           <Routes>
             <Route path="/" element={<Welcome />} />
             <Route path="/signup" element={<SignUp />} />
