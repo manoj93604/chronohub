@@ -1,0 +1,23 @@
+.intro_content_left{
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 5%;
+}
+
+.CardImage {
+  width: 30rem;
+
+  @media (max-width: 768px) {
+    width: 20rem;
+  }
+}
+
+.SessionOne_left{
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 10%;
+}
+
+.accordion-button {
+  width: 100%; /* Set the desired width */
+}
