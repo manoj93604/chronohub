@@ -8,20 +8,19 @@ import SignIn from "../Pages/SignIn";
 import CtaskHeader from "../Components/CtaskHeader";
 import CtaskDashboard from "../Pages/CtaskDashboard";
 
-
 const Home = () => {
   return (
     <>
-      <BrowserRouter basename="chronohub">
-          <Header />
-          <CtaskHeader/>
-          <Routes>
-            <Route path="/" element={<Welcome />} />
-            <Route path="/signup" element={<SignUp />} />
-            <Route path="/signin" element={<SignIn />} />
-            <Route path="/chronotask/your-work" element={<CtaskDashboard />} />
-          </Routes>
-          <Footer />
+      <BrowserRouter>
+        <Header />
+        <CtaskHeader />
+        <Routes>
+          <Route path="chronohub/" element={<Welcome />} />
+          <Route path="/signup" element={<SignUp />} />
+          <Route path="/signin" element={<SignIn />} />
+          <Route path="/chronotask/your-work" element={<CtaskDashboard />} />
+        </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   );
