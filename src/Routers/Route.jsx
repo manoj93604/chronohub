@@ -12,16 +12,16 @@ import CtaskDashboard from "../Pages/CtaskDashboard";
 const Home = () => {
   return (
     <>
-      <BrowserRouter basename="manoj93604.github.io/chronohub">
-        <Header />
-        <CtaskHeader />
-        <Routes>
-          <Route path="/" element={<Welcome />} />
-          <Route path="/signup" element={<SignUp />} />
-          <Route path="/signin" element={<SignIn />} />
-          <Route path="/chronotask/your-work" element={<CtaskDashboard />} />
-        </Routes>
-        <Footer />
+      <BrowserRouter>
+          {/* <Header />
+          <CtaskHeader/> */}
+          <Routes>
+            <Route path="/" element={<Welcome />} />
+            <Route path="/signup" element={<SignUp />} />
+            <Route path="/signin" element={<SignIn />} />
+            <Route path="/chronotask/your-work" element={<CtaskDashboard />} />
+          </Routes>
+          <Footer />
       </BrowserRouter>
     </>
   );
