@@ -18,7 +18,7 @@ const Home = () => {
           <Route path="chronohub/" element={<Welcome />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/signin" element={<SignIn />} />
-          <Route path="/chronotask/your-work" element={<CtaskDashboard />} />
+          <Route path="chronohub/chronotask/dashboard" element={<CtaskDashboard />} />
         </Routes>
         <Footer />
       </BrowserRouter>
