@@ -11,7 +11,7 @@ const Overlay = () => {
 
 
     const navigateToHome = () =>{
-        navigate("/chronohub/");
+        navigate("chronohub/");
     }
 
   return (
