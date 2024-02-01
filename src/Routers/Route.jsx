@@ -5,7 +5,7 @@ import SignUp from "../Pages/SignUp";
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 import SignIn from "../Pages/SignIn";
-import CtaskHeader from "../Components/CtaskHeader";
+// import CtaskHeader from "../Components/CtaskHeader";
 import CtaskDashboard from "../Pages/CtaskDashboard";
 
 const Home = () => {
@@ -13,7 +13,7 @@ const Home = () => {
     <>
       <BrowserRouter>
         <Header />
-        <CtaskHeader />
+        {/* <CtaskHeader /> */}
         <Routes>
           <Route path="chronohub/" element={<Welcome />} />
           <Route path="/signup" element={<SignUp />} />
