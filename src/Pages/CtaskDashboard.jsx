@@ -9,6 +9,7 @@ import { Image } from 'react-bootstrap';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import ListGroup from 'react-bootstrap/ListGroup';
+import CtaskHeader from "../Components/CtaskHeader";
 
 import ProfilePhoto from "../Assets/images/profile.jpg";
 
@@ -20,6 +21,8 @@ const CtashDashboard = () => {
   return (
     <Container fluid>
       {/* session one */}
+
+      <CtaskHeader/>
 
       <Row
         style={{ paddingLeft: "35px", paddingRight: "35px", marginTop: "30px" }}
