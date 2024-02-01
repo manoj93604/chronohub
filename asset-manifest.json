@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/chronohub/static/css/main.7a4f3a3e.css",
-    "main.js": "/chronohub/static/js/main.8830c1c8.js",
+    "main.js": "/chronohub/static/js/main.c4c43d94.js",
     "static/js/592.80e50f38.chunk.js": "/chronohub/static/js/592.80e50f38.chunk.js",
     "static/media/profile.jpg": "/chronohub/static/media/profile.ce15bebdc149b65e6c46.jpg",
     "index.html": "/chronohub/index.html",
     "main.7a4f3a3e.css.map": "/chronohub/static/css/main.7a4f3a3e.css.map",
-    "main.8830c1c8.js.map": "/chronohub/static/js/main.8830c1c8.js.map",
+    "main.c4c43d94.js.map": "/chronohub/static/js/main.c4c43d94.js.map",
     "592.80e50f38.chunk.js.map": "/chronohub/static/js/592.80e50f38.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7a4f3a3e.css",
-    "static/js/main.8830c1c8.js"
+    "static/js/main.c4c43d94.js"
   ]
 }
