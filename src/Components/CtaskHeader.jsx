@@ -78,7 +78,7 @@ const Header = () => {
 
   const location = useLocation();
 
-  const welcome = location.pathname === "/chronohub";
+  const welcome = location.pathname === "/";
   const isSignUp = location.pathname === "/signup";
   const isSignIn = location.pathname === "/signin";
   if (isSignUp || isSignIn || welcome) {
