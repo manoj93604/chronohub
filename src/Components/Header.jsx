@@ -14,7 +14,7 @@ const Header = () => {
 
   const isSignUp = location.pathname === "/signup";
   const isSignIn = location.pathname === "/signin";
-  const CtaskDashboard = location.pathname === "chronohub/chronotask/dashboard";
+  const CtaskDashboard = location.pathname === "/chronohub/chronotask/dashboard";
   if (isSignUp || isSignIn || CtaskDashboard) {
     return null;
   }
